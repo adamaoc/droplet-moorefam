@@ -33,7 +33,7 @@
                 </div>
                 
                 <nav class="headernav">
-                    <ul>
+                    <ul class="row">
                         <li><a href="/" <?php if($is_home) { echo 'class="active"'; } ?>>Home</a></li>
                         <li><a href="http://twitter.com/<?php echo($blog_twitter); ?>" target="_blank">&#64;<?php echo($blog_twitter); ?></a></li>
                     </ul>
@@ -42,6 +42,7 @@
             <section class="content">
                 <?php echo($content); ?>
             </section>
+            
             
             <?php get_footer(); ?>
             

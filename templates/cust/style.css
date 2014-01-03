@@ -295,6 +295,9 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .headernav ul {
   margin: 0 auto;
+  padding: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 .headernav li {
   list-style: none;
@@ -333,6 +336,20 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 
 
+body #dp-dropplets-icon {
+  background-color: orange;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+body #dp-dropplets-icon:hover {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+body #dp-dropplets-icon:before {
+  content: "M";
+}
 /* XL
 *********************************************************************************************/
 @media (min-width: 72.5rem) {
