@@ -9,7 +9,6 @@
                 <li>Written by <?php echo($post_author); ?></li>
                 <li><?php echo($published_date); ?></li>
                 <li>About <a href="<?php echo($post_category_link); ?>"><?php echo($post_category); ?></a></li>
-                <li></li>
             </ul>
         </div>
 

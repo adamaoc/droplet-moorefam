@@ -21,12 +21,12 @@
                 <div class="headerwrap">
                     <?php if($is_home) { ?>
                     <div class="brand-wrap">
-                        <h1 class="brand"><?php echo($intro_title); ?></h1>
+                        <h1 class="brand home"><?php echo($intro_title); ?></h1>
                         <span class="slogan"><?php echo($intro_text); ?></span>
                     </div>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     <?php }else{ ?>
-                    <div class="brand-wrap">
+                    <div class="brand-wrap inner">
                         <h1 class="brand"><?php echo($post_title); ?></h1>
                     </div>
                     <?php } ?>
