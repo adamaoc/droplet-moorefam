@@ -52,12 +52,12 @@
 
 @media (min-width: 30rem) {
 
-.row .one-quarter {
-    width: 25%;
-}
+    .row .one-quarter {
+        width: 25%;
+    }
 
-.row .three-quarters {
-    width: 75%;
-}
+    .row .three-quarters {
+        width: 75%;
+    }
     
 }
