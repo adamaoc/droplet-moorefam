@@ -27,7 +27,8 @@
 @media (min-width: 72.5rem) {
     
     .row {
-        max-width: 960px;
+        max-width: 60rem;
+        margin: 0 auto;
     }
     
 }

@@ -29,7 +29,7 @@ h4, h5, h6, .h1, .brand-wrap .brand {
 }
 
 h1, .h1, .brand-wrap .brand {
-  font-size: 5rem;
+  font-size: 3.8rem;
   line-height: 1.2em;
   letter-spacing: -2px;
   text-indent: -3px;
@@ -360,5 +360,8 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 @media (min-width: 30rem) {
 
+  h1, .h1, .brand-wrap .brand {
+    font-size: 5rem;
+  }
     
 }
