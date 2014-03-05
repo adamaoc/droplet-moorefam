@@ -325,6 +325,7 @@ $currentpage .= $requesturi;
 
 if($_GET['server'] == true) {
     print_r($_SERVER);
+    echo "<br>".$currentpage;
 }
 
 // If is home.
