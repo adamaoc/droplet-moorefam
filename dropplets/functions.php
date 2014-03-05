@@ -316,8 +316,12 @@ $currentpage  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME
 if($currentpage == "http://localhost" || "https://localhost") {
     $currentpage .= ":".$_SERVER["SERVER_PORT"];
 }
-
-$currentpage .= $_SERVER["REQUEST_URI"];
+if($_SERVER["REQUEST_URI"] == "/?edit") {
+    $requesturi = "/";
+} else {
+    $requesturi = $_SERVER["REQUEST_URI"];
+}
+$currentpage .= $requesturi;
 
 // If is home.
 $is_home = ($homepage==$currentpage);

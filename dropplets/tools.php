@@ -288,8 +288,9 @@ if (!isset($_SESSION['user'])) { ?>
 /*-----------------------------------------------------------------------------------*/
 
 ?>
-
+<?php if(isset($_GET['edit'])) { ?>
 <a class="dp-open dp-icon-dropplets" id="dp-dropplets-icon" href="#dp-dropplets"></a>
+<?php } ?>
 
 <script type="text/javascript" src="<?php echo(BLOG_URL); ?>dropplets/includes/js/cookies.js"></script>
 <script type="text/javascript">
