@@ -380,9 +380,9 @@ function get_header() { ?>
     <link rel="stylesheet" href="<?php echo BLOG_URL; ?>dropplets/style/style.css">
     <?php 
         if($template == 'cust') {
-            echo '<link rel="shortcut icon" href="<?php echo BLOG_URL; ?>templates/cust/favicon.png">';
+            echo '<link rel="shortcut icon" href="'.'BLOG_URL'.'templates/cust/favicon.png">';
         }else{
-            echo '<link rel="shortcut icon" href="<?php echo BLOG_URL; ?>dropplets/style/images/favicon.png">';
+            echo '<link rel="shortcut icon" href="'.'BLOG_URL'.'dropplets/style/images/favicon.png">';
         }
     ?>
 
