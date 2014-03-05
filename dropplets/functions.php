@@ -378,7 +378,13 @@ function get_header() { ?>
     
     <!-- Dropplets Styles -->
     <link rel="stylesheet" href="<?php echo BLOG_URL; ?>dropplets/style/style.css">
-    <link rel="shortcut icon" href="<?php echo BLOG_URL; ?>dropplets/style/images/favicon.png">
+    <?php 
+        if($template == 'cust') {
+            echo '<link rel="shortcut icon" href="<?php echo BLOG_URL; ?>templates/cust/favicon.png">';
+        }else{
+            echo '<link rel="shortcut icon" href="<?php echo BLOG_URL; ?>dropplets/style/images/favicon.png">';
+        }
+    ?>
 
     <!-- User Header Injection -->
     <?php echo HEADER_INJECT; ?>

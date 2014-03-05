@@ -272,6 +272,7 @@ table.plain tbody > tr:nth-child(odd) > th {
   background-position: center center;
   z-index: -1;
   -webkit-filter: blur(3px) grayscale(0.5);
+  filter: blur(3px) grayscale(0.5);
 }
 
 .siteheader .headerbg::after {
@@ -309,14 +310,11 @@ table.plain tbody > tr:nth-child(odd) > th {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /*border-top: 1px solid rgba(255, 255, 255, 0.2);*/
   background: rgba(0, 0, 0, 0.2);
 }
 .headernav ul {
   margin: 0 auto;
   padding: 0;
-  /*border-right: 1px solid rgba(255, 255, 255, 0.2);
-  border-left: 1px solid rgba(255, 255, 255, 0.2);*/
 }
 .headernav li {
   list-style: none;
@@ -326,13 +324,11 @@ table.plain tbody > tr:nth-child(odd) > th {
 }
 .headernav li a {
   color: #fff;
-  padding: 0.7em;
+  padding: 0.7em 1.5em;
   text-decoration: none;
   text-transform: lowercase;
   font-size: 0.7em;
-}
-.headernav li a.active, .headernav li a:hover {
-  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
 }
 
 .content {
