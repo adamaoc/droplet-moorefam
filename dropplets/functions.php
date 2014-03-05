@@ -311,6 +311,12 @@ $homepage = BLOG_URL;
 
 // Get the current page.    
 $currentpage  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] : 'https://'.$_SERVER["SERVER_NAME"];
+
+// Modified to catch if locally developing
+if($currentpage == "http://localhost" || "https://localhost") {
+    $currentpage .= ":".$_SERVER["SERVER_PORT"];
+}
+
 $currentpage .= $_SERVER["REQUEST_URI"];
 
 // If is home.
