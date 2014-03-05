@@ -313,7 +313,7 @@ $homepage = BLOG_URL;
 $currentpage  = @( $_SERVER["HTTPS"] != 'on' ) ? 'http://'.$_SERVER["SERVER_NAME"] : 'https://'.$_SERVER["SERVER_NAME"];
 
 // Modified to catch if locally developing
-if($currentpage == "http://localhost" || "https://localhost") {
+if($currentpage == "http://localhost" || $currentpage == "https://localhost") {
     $currentpage .= ":".$_SERVER["SERVER_PORT"];
 }
 if($_SERVER["REQUEST_URI"] == "/?edit") {
