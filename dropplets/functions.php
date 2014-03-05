@@ -323,7 +323,7 @@ if($_SERVER["REQUEST_URI"] == "/?edit") {
 }
 $currentpage .= $requesturi;
 
-if($_GET['server=true']) {
+if($_GET['server'] == true) {
     print_r($_SERVER);
 }
 
