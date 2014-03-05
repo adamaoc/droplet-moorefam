@@ -323,6 +323,10 @@ if($_SERVER["REQUEST_URI"] == "/?edit") {
 }
 $currentpage .= $requesturi;
 
+if($_GET['server=true']) {
+    print_r($_SERVER);
+}
+
 // If is home.
 $is_home = ($homepage==$currentpage);
 define('IS_HOME', $is_home);
