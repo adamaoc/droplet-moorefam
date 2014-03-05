@@ -36,6 +36,9 @@ if ($_POST["submit"] == "submit" && (!file_exists($settings_file) || isset($_SES
     if (isset($_POST["blog_twitter"])) {
         $blog_twitter = $_POST["blog_twitter"];
     }
+    if (isset($_POST["blog_bgphoto"])) {
+        $blog_bgphoto = $_POST["blog_bgphoto"];
+    }
     if (isset($_POST["blog_url"])) {
         $blog_url = $_POST["blog_url"];
     }
@@ -84,6 +87,7 @@ if ($_POST["submit"] == "submit" && (!file_exists($settings_file) || isset($_SES
     $config[] = "<?php";
     $config[] = settings_format("blog_email", $blog_email);
     $config[] = settings_format("blog_twitter", $blog_twitter);
+    $config[] = settings_format("blog_bgphoto", $blog_bgphoto);
     $config[] = settings_format("blog_url", $blog_url);
     $config[] = settings_format("blog_title", $blog_title);
     $config[] = settings_format("meta_description", $meta_description);

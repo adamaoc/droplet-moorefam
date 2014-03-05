@@ -25,6 +25,7 @@ include('./config.php');
 // Definitions from the included configs above.
 define('BLOG_EMAIL', $blog_email);
 define('BLOG_TWITTER', $blog_twitter);
+define('BLOG_BGPHOTO', $blog_bgphoto);
 define('BLOG_URL', $blog_url);
 define('BLOG_TITLE', $blog_title);
 define('META_DESCRIPTION', $meta_description);

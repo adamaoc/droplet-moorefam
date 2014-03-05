@@ -102,7 +102,7 @@ if (!isset($_SESSION['user'])) { ?>
                 <a class="dp-link dp-toggle" href="#dp-profile"></a>
                 <button class="dp-button dp-button-submit" type="submit" name="submit" value="submit">k</button>
             </div>
-            
+
             <div class="dp-sub-panel" id="dp-profile">
                 <div class="dp-row dp-editable">
                     <div class="dp-icon dp-icon-edit"></div>
@@ -119,6 +119,15 @@ if (!isset($_SESSION['user'])) { ?>
                     <div class="dp-content">
                         <label>Blog Twitter</label>
                         <input type="text" name="blog_twitter" id="blog_twitter" value="<?php echo BLOG_TWITTER; ?>">
+                    </div>
+                </div>
+                
+                <div class="dp-row dp-editable">
+                    <div class="dp-icon dp-icon-edit"></div>
+                    
+                    <div class="dp-content">
+                        <label>Blog BG Photo</label>
+                        <input type="text" name="blog_bgphoto" id="blog_bgphoto" value="<?php echo BLOG_BGPHOTO; ?>">
                     </div>
                 </div>
             </div>

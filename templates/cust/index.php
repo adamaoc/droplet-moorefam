@@ -17,7 +17,7 @@
 
     <body>
         <div class="wrap">
-            <header class="siteheader">
+            <header class="siteheader" style="background-image: url(<?php echo($blog_bgphoto); ?>);">
                 <div class="headerwrap">
                     <?php if($is_home) { ?>
                     <div class="brand-wrap">
