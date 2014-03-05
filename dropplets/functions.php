@@ -379,10 +379,10 @@ function get_header() { ?>
     <!-- Dropplets Styles -->
     <link rel="stylesheet" href="<?php echo BLOG_URL; ?>dropplets/style/style.css">
     <?php 
-        if($template == 'cust') {
-            echo '<link rel="shortcut icon" href="'.'BLOG_URL'.'templates/cust/favicon.png">';
+        if(ACTIVE_TEMPLATE == 'cust') {
+            echo '<link rel="shortcut icon" href="'.BLOG_URL.'templates/cust/favicon.png">';
         }else{
-            echo '<link rel="shortcut icon" href="'.'BLOG_URL'.'dropplets/style/images/favicon.png">';
+            echo '<link rel="shortcut icon" href="'.BLOG_URL.'dropplets/style/images/favicon.png">';
         }
     ?>
 
