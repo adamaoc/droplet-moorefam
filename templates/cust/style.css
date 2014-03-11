@@ -371,6 +371,12 @@ body #dp-dropplets-icon:hover {
 body #dp-dropplets-icon:before {
   content: "M";
 }
+
+.sitefooter {
+  text-align: center;  
+  font-size: 0.8em;
+}
+
 /* XL
 *********************************************************************************************/
 @media (min-width: 72.5rem) {
