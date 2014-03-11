@@ -44,7 +44,7 @@
                 <?php echo($content); ?>
             </section>
             
-            <footer class="sitefooter">
+            <footer class="sitefooter row">
                 <a href="http://mediatemple.net#a_aid=512fd1cf8a22a&amp;a_bid=e89e2468" target="_top" rel="nofollow"><img src="https://affiliate.mediatemple.net/accounts/default1/banners/468x60-light.gif" alt="" width="468" height="60" /></a><img style="border:0" src="https://affiliate.mediatemple.net/scripts/imp.php?a_aid=512fd1cf8a22a&amp;a_bid=e89e2468" width="1" height="1" alt="" />
                 <p><em>all rights reserved @copy;2014 - designed and developed by <a href="http://ampnetmedia.com">ampnet(media)</a> Dallas, Texas.</em></p>
             </footer>
